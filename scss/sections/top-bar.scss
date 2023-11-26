@@ -1,0 +1,46 @@
+$typo-poppins: 'Poppins', sans-serif;
+:root {
+    --open-color: green;
+    --closed-color: red;
+}
+#topbar {
+    background-color: #fff;
+    height: 25px;
+    font-size: 12px;
+    transition: all 0.5s;
+    display: flex;
+
+    @include tablet {
+        display: none;
+    }
+
+    .contact-info {
+        display: flex;
+        line-height: 14px;
+        margin: 0.25% 0% 0% 10%;
+    }
+
+    i {
+        display: contents;
+        font-family: $typo-poppins;
+        color: #333;
+    }
+
+    .clock-container {
+        display: flex;
+        justify-content: flex-end;
+        text-align: center;
+        margin-right: 6%;
+        width: 500px;
+        .clock {
+            font-size: 1.5em;
+            font-family: $typo-poppins;
+        }
+        .status {
+            font-size: 1.2em;
+            font-weight: 400;
+            font-family: $typo-apple;
+            margin-top: 1.2%;
+        }
+    }
+}

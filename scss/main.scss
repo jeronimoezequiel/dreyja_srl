@@ -1,0 +1,13 @@
+/* ------------ media queries ------------*/
+@import './utilities/media-querys.scss';
+/* ------------ utilities ------------*/
+@import './utilities/vars.scss';
+@import './utilities/reset.scss';
+/* ------------ contenido gral ------------*/
+@import './sections/top-bar.scss';
+@import './sections/nav-index.scss';
+@import './sections/h-index.scss';
+@import './sections/h-pages.scss';
+@import './sections/main-index.scss';
+@import './sections/formulario.scss';
+@import './sections/footer.scss';
