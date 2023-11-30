@@ -417,8 +417,8 @@ main {
         height: 120vh; } }
     @media only screen and (max-width: 480px) {
       .section-form .contactForm {
-        width: 640px;
-        margin-left: 10px;
+        width: 440px;
+        margin-left: -178px;
         height: 120vh; } }
     .section-form .contactForm .form {
       position: relative;
@@ -487,6 +487,10 @@ main {
         .section-form .contactForm .info {
           height: 300px;
           padding: 30px; } }
+      @media only screen and (max-width: 480px) {
+        .section-form .contactForm .info {
+          margin-left: -40px;
+          margin-top: -41px; } }
       .section-form .contactForm .info .imgBox {
         position: relative;
         width: 420px;

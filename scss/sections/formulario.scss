@@ -73,8 +73,8 @@
         }
 
         @include mobile-medium {
-            width: 640px;
-            margin-left: 10px;
+            width: 440px;
+            margin-left: -178px;
             height: 120vh
         }
 
@@ -162,6 +162,11 @@
             @include tablet {
                 height: 300px;
                 padding: 30px;
+            }
+
+            @include mobile-medium {
+                margin-left: -40px;
+                margin-top: -41px;
             }
 
             //Imagen de box 
