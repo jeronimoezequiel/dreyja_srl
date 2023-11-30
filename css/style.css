@@ -73,9 +73,9 @@ header #btn__menu {
   @media only screen and (max-width: 630px) {
     header #btn__menu {
       margin-left: 670px; } }
-  @media only screen and (max-width: 576px) {
+  @media only screen and (max-width: 480px) {
     header #btn__menu {
-      margin-left: 570px; } }
+      margin-left: 365px; } }
 
 @media only screen and (max-width: 768px) {
   header #btn__menu:hover {
@@ -355,7 +355,7 @@ main {
 .section-form {
   position: relative;
   width: 100%;
-  height: 130vh;
+  height: 800px;
   display: grid;
   place-items: center;
   background: #1766a3;
@@ -417,8 +417,8 @@ main {
         height: 120vh; } }
     @media only screen and (max-width: 480px) {
       .section-form .contactForm {
-        width: 440px;
-        margin-left: -178px;
+        width: 640px;
+        margin-left: 10px;
         height: 120vh; } }
     .section-form .contactForm .form {
       position: relative;
@@ -487,10 +487,6 @@ main {
         .section-form .contactForm .info {
           height: 300px;
           padding: 30px; } }
-      @media only screen and (max-width: 480px) {
-        .section-form .contactForm .info {
-          margin-left: -40px;
-          margin-top: -41px; } }
       .section-form .contactForm .info .imgBox {
         position: relative;
         width: 420px;

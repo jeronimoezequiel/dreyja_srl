@@ -24,8 +24,8 @@ header{
             margin-left: 670px;
         }
 
-        @include mobile {
-            margin-left: 570px;
+        @include mobile-medium {
+            margin-left: 365px;
         }
     }
     #btn__menu:hover {
