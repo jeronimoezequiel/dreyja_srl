@@ -78,7 +78,7 @@ header #btn__menu {
       margin-left: 670px; } }
   @media only screen and (max-width: 390px) {
     header #btn__menu {
-      margin-left: 340px; } }
+      margin-left: 330px; } }
 
 @media only screen and (max-width: 768px) {
   header #btn__menu:hover {
@@ -584,13 +584,16 @@ main {
   @media only screen and (max-width: 390px) {
     #footer {
       width: 420px;
-      margin-left: -134px; } }
+      margin-left: -17px; } }
   #footer .footer-top {
     background: #f6f6f6;
     padding: 60px 0 30px 0; }
     @media only screen and (max-width: 630px) {
       #footer .footer-top {
         width: 660px; } }
+    @media only screen and (max-width: 390px) {
+      #footer .footer-top {
+        width: 420px; } }
     #footer .footer-top .footer-info {
       margin-bottom: 30px; }
       @media only screen and (max-width: 768px) {

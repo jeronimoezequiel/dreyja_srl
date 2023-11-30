@@ -10,7 +10,7 @@
 
     @include mobile-a54 {
         width: 420px;
-        margin-left: -134px;
+        margin-left: -17px;
     }
 
     .footer-top{
@@ -19,6 +19,10 @@
 
         @include tablet-medium {
             width: 660px;
+        }
+
+        @include mobile-a54 {
+            width: 420px;
         }
 
         .footer-info{
@@ -182,7 +186,6 @@
         }
     }
     .container{
-        // height: 50px;
 
         .copyright{
             text-align: center;
