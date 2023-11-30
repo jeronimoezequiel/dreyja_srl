@@ -15,10 +15,6 @@ a {
   text-decoration: none; }
 
 /* ------------ contenido gral ------------*/
-@media only screen and (max-width: 390px) {
-  body {
-    overflow-x: hidden; } }
-
 :root {
   --open-color: green;
   --closed-color: red; }
@@ -441,7 +437,8 @@ main {
       margin-left: 30px; }
       @media only screen and (max-width: 390px) {
         .section-form .contactForm .form {
-          margin-left: 8px; } }
+          margin-left: 8px;
+          width: 75%; } }
       .section-form .contactForm .form .texto h2 {
         font-family: 'Poppins';
         color: #1766a3;
@@ -449,7 +446,8 @@ main {
         margin-bottom: 10px; }
         @media only screen and (max-width: 390px) {
           .section-form .contactForm .form .texto h2 {
-            margin-left: -30px;
+            margin-left: -55px;
+            width: 320px;
             font-size: 1.8em; } }
       .section-form .contactForm .form .texto p {
         font-family: 'Poppins';
@@ -458,10 +456,15 @@ main {
         margin-bottom: 20px; }
         @media only screen and (max-width: 390px) {
           .section-form .contactForm .form .texto p {
-            margin-left: -30px;
-            font-size: 22px; } }
+            margin-left: -44px;
+            font-size: 22px;
+            width: 320px; } }
     .section-form .contactForm form {
       width: 100%; }
+      @media only screen and (max-width: 390px) {
+        .section-form .contactForm form {
+          width: 90%;
+          margin-right: 36px; } }
       .section-form .contactForm form input[type="submit"] {
         background: #1766a3;
         display: inline-block;
@@ -481,6 +484,9 @@ main {
         display: flex;
         flex-direction: column;
         margin-bottom: 15px; }
+        @media only screen and (max-width: 390px) {
+          .section-form .contactForm form .inputBox {
+            margin-right: 200px; } }
         .section-form .contactForm form .inputBox label {
           color: #1766a3;
           font-weight: 700; }
