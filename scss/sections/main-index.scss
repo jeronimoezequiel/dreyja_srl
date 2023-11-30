@@ -1,5 +1,9 @@
 main{
     height: 100vh;
+    @include mobile-a54 {
+        width: 390px;
+        background-color: yellow;
+    }
     .A{
         height: 50vh;
         background: red;
@@ -10,6 +14,8 @@ main{
             margin-top: 10%;
             background-color: transparent;
         }
+
+        
     }
 }
 .blur {

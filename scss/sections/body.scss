@@ -1,3 +1,6 @@
 body {
-    overflow-x: hidden;
+    
+    @include mobile-a54 {
+        overflow-x: hidden;
+    }
 }
