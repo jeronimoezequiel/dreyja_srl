@@ -22,20 +22,14 @@
     }
 }
 
-@mixin mobile {
-    @media only screen and (max-width: 576px) {
+@mixin mobile-L-14promax {
+    @media only screen and (max-width: 430px) {
         @content;
     }
 }
 
-@mixin mobile-medium {
-    @media only screen and (max-width: 480px) {
-        @content;
-    }
-}
-
-@mixin mobile-small {
-    @media only screen and (max-width: 320px) {
+@mixin mobile-a54 {
+    @media only screen and (max-width: 390px) {
         @content;
     }
 }

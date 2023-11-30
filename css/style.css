@@ -73,9 +73,9 @@ header #btn__menu {
   @media only screen and (max-width: 630px) {
     header #btn__menu {
       margin-left: 670px; } }
-  @media only screen and (max-width: 480px) {
+  @media only screen and (max-width: 390px) {
     header #btn__menu {
-      margin-left: 365px; } }
+      margin-left: 340px; } }
 
 @media only screen and (max-width: 768px) {
   header #btn__menu:hover {
@@ -362,25 +362,27 @@ main {
   background: linear-gradient(to top right, #3E92CC, #0c426c); }
   @media only screen and (max-width: 768px) {
     .section-form {
-      height: 125vh;
+      height: 800px;
       background: #1766a3;
       background: linear-gradient(to top right, #1867a3, #0c426c); } }
   @media only screen and (max-width: 630px) {
     .section-form {
       width: 660px;
-      height: 125vh;
+      height: 800px;
       background: #1766a3;
       background: linear-gradient(to top right, #1867a3, #0c426c); } }
-  @media only screen and (max-width: 576px) {
-    .section-form {
-      width: 660px;
-      height: 125vh;
-      background: #1766a3;
-      background: linear-gradient(to top right, #1867a3, #0c426c); } }
-  @media only screen and (max-width: 480px) {
+  @media only screen and (max-width: 430px) {
     .section-form {
       width: 660px;
       margin-left: -8px;
+      background: #1766a3;
+      background: linear-gradient(to top right, #1867a3, #0c426c); } }
+  @media only screen and (max-width: 390px) {
+    .section-form {
+      width: 370px;
+      height: 800px;
+      margin-left: 10px;
+      margin-top: -60%;
       background: #1766a3;
       background: linear-gradient(to top right, #1867a3, #0c426c); } }
   .section-form .contactForm {
@@ -410,16 +412,17 @@ main {
         width: 610px;
         height: 114vh;
         margin: -2px 0px 0px 8px; } }
-    @media only screen and (max-width: 576px) {
+    @media only screen and (max-width: 430px) {
       .section-form .contactForm {
         width: 630px;
         margin-left: 2px;
         height: 120vh; } }
-    @media only screen and (max-width: 480px) {
+    @media only screen and (max-width: 390px) {
       .section-form .contactForm {
-        width: 640px;
-        margin-left: 10px;
-        height: 120vh; } }
+        width: 355px;
+        margin-left: 1px;
+        margin-top: -25px;
+        height: 750px; } }
     .section-form .contactForm .form {
       position: relative;
       display: flex;
@@ -428,7 +431,7 @@ main {
       flex-direction: column;
       width: 85%;
       margin-left: 30px; }
-      @media only screen and (max-width: 480px) {
+      @media only screen and (max-width: 390px) {
         .section-form .contactForm .form {
           margin-left: 8px; } }
       .section-form .contactForm .form .texto h2 {
@@ -436,11 +439,19 @@ main {
         color: #1766a3;
         font-size: 2em;
         margin-bottom: 10px; }
+        @media only screen and (max-width: 390px) {
+          .section-form .contactForm .form .texto h2 {
+            margin-left: -30px;
+            font-size: 1.8em; } }
       .section-form .contactForm .form .texto p {
         font-family: 'Poppins';
         color: #0b426c;
         font-size: 1.5em;
         margin-bottom: 20px; }
+        @media only screen and (max-width: 390px) {
+          .section-form .contactForm .form .texto p {
+            margin-left: -30px;
+            font-size: 22px; } }
     .section-form .contactForm form {
       width: 100%; }
       .section-form .contactForm form input[type="submit"] {
@@ -465,6 +476,9 @@ main {
         .section-form .contactForm form .inputBox label {
           color: #1766a3;
           font-weight: 700; }
+          @media only screen and (max-width: 390px) {
+            .section-form .contactForm form .inputBox label {
+              margin-left: -30px; } }
         .section-form .contactForm form .inputBox input[type="text"],
         .section-form .contactForm form .inputBox input[type="email"],
         .section-form .contactForm form .inputBox textarea {
@@ -474,6 +488,15 @@ main {
           border-radius: 10px;
           color: #1766a3;
           resize: none; }
+        @media only screen and (max-width: 390px) {
+          .section-form .contactForm form .inputBox input[type="text"],
+          .section-form .contactForm form .inputBox input[type="email"] {
+            width: 318px;
+            margin-left: -30px; } }
+        @media only screen and (max-width: 390px) {
+          .section-form .contactForm form .inputBox textarea {
+            width: 318px;
+            margin-left: -30px; } }
         .section-form .contactForm form .inputBox input[type="text"]:focus,
         .section-form .contactForm form .inputBox input[type="email"]:focus,
         .section-form .contactForm form .inputBox textarea:focus {
@@ -487,6 +510,11 @@ main {
         .section-form .contactForm .info {
           height: 300px;
           padding: 30px; } }
+      @media only screen and (max-width: 390px) {
+        .section-form .contactForm .info {
+          margin-left: -114px;
+          margin-top: -41px;
+          font-size: .75em; } }
       .section-form .contactForm .info .imgBox {
         position: relative;
         width: 420px;
@@ -524,10 +552,10 @@ main {
       @media only screen and (max-width: 768px) {
         .section-form .contactForm .info .rrss {
           margin-top: -47%; } }
-      @media only screen and (max-width: 576px) {
+      @media only screen and (max-width: 430px) {
         .section-form .contactForm .info .rrss {
           display: flex; } }
-      @media only screen and (max-width: 480px) {
+      @media only screen and (max-width: 390px) {
         .section-form .contactForm .info .rrss {
           display: flex;
           margin-top: -40%; } }

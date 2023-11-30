@@ -8,31 +8,35 @@
     background: linear-gradient(to top right, #3E92CC, #0c426c);
 
     @include tablet {
-        height: 125vh;
+        height: 800px;
         background: #1766a3;
         background: linear-gradient(to top right, #1867a3, #0c426c);
     }
 
     @include tablet-medium {
         width: 660px;
-        height: 125vh;
+        height: 800px;
         background: #1766a3;
         background: linear-gradient(to top right, #1867a3, #0c426c);
     }
 
-    @include mobile {
-        width: 660px;
-        height: 125vh;
-        background: #1766a3;
-        background: linear-gradient(to top right, #1867a3, #0c426c);
-    }
-
-    @include mobile-medium {
+    @include mobile-L-14promax {
         width: 660px;
         margin-left: -8px;
         background: #1766a3;
         background: linear-gradient(to top right, #1867a3, #0c426c);
     }
+
+    @include mobile-a54 {
+        width: 370px;
+        height: 800px;
+        margin-left: 10px;
+        margin-top: -60%;
+        background: #1766a3;
+        background: linear-gradient(to top right, #1867a3, #0c426c);
+    }
+
+    
 
     .contactForm{
         position: relative;
@@ -66,16 +70,17 @@
             margin: -2px 0px 0px 8px
         }
 
-        @include mobile {
+        @include mobile-L-14promax {
             width: 630px;
             margin-left: 2px;
             height: 120vh
         }
 
-        @include mobile-medium {
-            width: 640px;
-            margin-left: 10px;
-            height: 120vh
+        @include mobile-a54 {
+            width: 355px;
+            margin-left: 1px;
+            margin-top: -25px;
+            height: 750px;
         }
 
         .form{
@@ -87,7 +92,7 @@
             width: 85%;
             margin-left: 30px;
 
-            @include mobile-medium {
+            @include mobile-a54 {
                 margin-left: 8px;
             }
 
@@ -97,12 +102,22 @@
                     color: #1766a3;
                     font-size: 2em;
                     margin-bottom: 10px;
+
+                    @include mobile-a54 {
+                        margin-left: -30px;
+                        font-size: 1.8em;
+                    }
                 }
                 p{
                     font-family: 'Poppins';    
                     color: #0b426c;
                     font-size: 1.5em;
                     margin-bottom: 20px;
+
+                    @include mobile-a54 {
+                        margin-left: -30px;
+                        font-size: 22px;
+                    }
                 }
             } 
         }
@@ -134,6 +149,9 @@
                 label{
                     color: #1766a3;
                     font-weight: 700;
+                    @include mobile-a54 {
+                        margin-left: -30px;
+                    }
                 }
                 input[type="text"],
                 input[type="email"],
@@ -144,6 +162,19 @@
                     border-radius: 10px;
                     color: #1766a3;
                     resize: none;
+                }
+                input[type="text"],
+                input[type="email"]{
+                    @include mobile-a54 {
+                        width: 318px;
+                        margin-left: -30px;
+                    }
+                }
+                textarea{
+                    @include mobile-a54 {
+                        width: 318px;
+                        margin-left: -30px;
+                    }
                 }
                 input[type="text"]:focus,
                 input[type="email"]:focus,
@@ -162,6 +193,12 @@
             @include tablet {
                 height: 300px;
                 padding: 30px;
+            }
+
+            @include mobile-a54 {
+                margin-left: -114px;
+                margin-top: -41px;
+                font-size: .75em;
             }
 
             //Imagen de box 
@@ -215,11 +252,11 @@
                     margin-top: -47%;
                 }
 
-                @include mobile {
+                @include mobile-L-14promax {
                     display: flex;
                 }
 
-                @include mobile-medium {
+                @include mobile-a54 {
                     display: flex;
                     margin-top: -40%;
                 }
