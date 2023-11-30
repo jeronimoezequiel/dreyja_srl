@@ -28,7 +28,7 @@
     }
 
     @include mobile-a54 {
-        width: 370px;
+        width: 380px;
         height: 800px;
         margin-left: 10px;
         margin-top: -60%;
@@ -78,7 +78,7 @@
 
         @include mobile-a54 {
             width: 355px;
-            margin-left: 1px;
+            margin-left: 0px;
             margin-top: -25px;
             height: 750px;
         }

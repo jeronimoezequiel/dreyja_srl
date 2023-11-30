@@ -15,6 +15,9 @@ a {
   text-decoration: none; }
 
 /* ------------ contenido gral ------------*/
+body {
+  overflow-x: hidden; }
+
 :root {
   --open-color: green;
   --closed-color: red; }
@@ -379,7 +382,7 @@ main {
       background: linear-gradient(to top right, #1867a3, #0c426c); } }
   @media only screen and (max-width: 390px) {
     .section-form {
-      width: 370px;
+      width: 380px;
       height: 800px;
       margin-left: 10px;
       margin-top: -60%;
@@ -420,7 +423,7 @@ main {
     @media only screen and (max-width: 390px) {
       .section-form .contactForm {
         width: 355px;
-        margin-left: 1px;
+        margin-left: 0px;
         margin-top: -25px;
         height: 750px; } }
     .section-form .contactForm .form {
@@ -578,6 +581,10 @@ main {
   @media only screen and (max-width: 630px) {
     #footer {
       width: 660px; } }
+  @media only screen and (max-width: 390px) {
+    #footer {
+      width: 420px;
+      margin-left: -134px; } }
   #footer .footer-top {
     background: #f6f6f6;
     padding: 60px 0 30px 0; }
@@ -688,6 +695,9 @@ main {
       @media only screen and (max-width: 768px) {
         #footer .footer-top .footer-newsletter form {
           width: 400px; } }
+      @media only screen and (max-width: 390px) {
+        #footer .footer-top .footer-newsletter form {
+          width: 350px; } }
       #footer .footer-top .footer-newsletter form input[type="email"] {
         border: 0;
         padding: 4px;

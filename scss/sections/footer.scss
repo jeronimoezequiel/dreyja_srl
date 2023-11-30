@@ -8,6 +8,11 @@
         width: 660px;
     }
 
+    @include mobile-a54 {
+        width: 420px;
+        margin-left: -134px;
+    }
+
     .footer-top{
         background: #f6f6f6;
         padding: 60px 0 30px 0;
@@ -147,6 +152,10 @@
                     width: 400px;
                 }
 
+                @include mobile-a54 {
+                    width: 350px;
+                }
+
                 input[type="email"] {
                     border: 0;
                     padding: 4px;
@@ -173,6 +182,7 @@
         }
     }
     .container{
+        // height: 50px;
 
         .copyright{
             text-align: center;
@@ -182,6 +192,7 @@
             padding-top: 10px;
             text-align: center;
             font-size: 13px;
+
         }
     }
 }
