@@ -23,8 +23,8 @@
     <title>Inicio</title>
 </head>
 <body>
-    
-    <!-------------------------------------------------------------------------------------- 
+
+    <!--------------------------------------------------------------------------------------
                                     # Pre-Loader
     --------------------------------------------------------------------------------------->
     <!-- <div id="preloader">
@@ -33,8 +33,8 @@
 
     <!-- Content -->
     <!-- <div id="content" style="display:none;"> -->
-        
-    <!-------------------------------------------------------------------------------------- 
+
+    <!--------------------------------------------------------------------------------------
                                     # topbar
     --------------------------------------------------------------------------------------->
     <div id="topbar" class=" align-items-center fixed-top">
@@ -48,18 +48,18 @@
             <div id="status" class="status"></div>
         </div>
     </div>
-    
-    
 
-    <!-------------------------------------------------------------------------------------- 
-                                    # Navbar
+
+
+    <!--------------------------------------------------------------------------------------
+                                    # Header + Navbar
     --------------------------------------------------------------------------------------->
     <header>
         <div>
             <i class="fa-solid fa-bars" id="btn__menu"></i>
         </div>
         <div id="back_menu"></div>
-        
+
         <nav id="nav">
             <div class="menu">
                 <ul class="nav__list">
@@ -91,15 +91,15 @@
                     <div class="bottom-line"></div>
                 </ul>
             </div>
-    
-    
+
+
             <!-- Search -->
             <div class="search-form">
                 <form>
                     <input type="search" id="inputSearch" placeholder="Ingrese categoria o producto" autocomplete="off">
                 </form>
             </div>
-    
+
             <ul id="box-search">
                 <li><a href="#"><i class="bi bi-search"></i> Perfil Galvanizado</a></li>
                 <li><a href="#"><i class="bi bi-search"></i> Fijación Fisher</a></li>
@@ -107,27 +107,111 @@
                 <li><a href="#"><i class="bi bi-search"></i> Tornillo T1</a></li>
                 <li><a href="#"><i class="bi bi-search"></i> Tornillo T2</a></li>
             </ul>
-    
+
             <div class="" id="cover-ctn-search"></div>
-    
+
             <a class="close"><i class="fa fa-times"></i></a>
         </nav>
 
+        <!-- # boton de wsp -->
+        <a href="https://wa.me/5492995479547" class="btn-wsp" target="_blank">
+            <i class="fa fa-whatsapp icono"></i>
+        </a>
     </header>
-    
-    <!-------------------------------------------------------------------------------------- 
-                                    # Header
-    --------------------------------------------------------------------------------------->
-    
-    <!-------------------------------------------------------------------------------------- 
+
+    <!--------------------------------------------------------------------------------------
                                     # Main
     --------------------------------------------------------------------------------------->
+
     <main>
-        <section class="A">
-        <h1>INICIO</h1>
+            <!-- # Seccion 1 - Home header -->
+        <section id="home" class="d-flex align-items-center">
+            <div class="container">
+                <h1>Bienvenido a Dreyja <br></h1>
+                <h2 class="subtitle-ppal">Somos empresa lider en construcción en seco<br>"insertar eslogan"</h2>
+                <a href="#about" class="btn-get-started scrollto">Ver Más...</a>
+            </div>
         </section>
+
+<!-- --------------------------------------------------------------------------------------------------------- -->
+
+        <!-- # Seccion 2 - Home Futuro -->
+        <section id="" class="home_1">
+            <div class="home_txt-fx">
+                <div class="columns">
+                    <div class="col fade-in">
+                        <h2>Construir futuro</h2>
+                        <p>Dreyja es una empresa concebida con la idea de ofrecerte el asesoramiento y la atencion necesaria para que puedas desarrollar tus proyectos constructivos con productos de primera calidad, con diferentes opciones, a la medida de tus posibilidades. Contamos con un equipo de expertos que te acompañará en cada paso de tu construcción. Queremos que vengas, nos cuentes cuáles son tus proyectos, y nos permitas ayudarte a hacerlos realidad, sin necesidad de gastar demás!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+<!-- --------------------------------------------------------------------------------------------------------- -->
+        <!-- # Seccion 4 - Cards -->
+        <section id="cards">
+            <div class="home-container">
+                <!-- CARD 1 -->
+                    <div class="home-card">
+                        <div class="home-imgBx" data-text="Design">
+                            <img class="home-icon" src="./scss/recursos/evaluation-color.png" alt="">
+                        </div>
+                        <div class="home-content">
+                            <div>
+                                <h3>Asesoramiento Profesional</h3>
+                                <p>Te asesoramos en la elección de tus materiales.</p>
+                                <!-- <a href="#">Ver más...</a> -->
+                            </div>
+                        </div>
+                    </div>
+        
+                <!-- CARD 2 -->
+                    <div class="home-card">
+                        <div class="home-imgBx" data-text="Design">
+                            <img class="home-icon" src="./scss/recursos/support-color.png" alt="">
+                        </div>
+                        <div class="home-content">
+                            <div>
+                                <h3>Acompañamiento</h3>
+                                <p>Estamos siempre cerca tuyo para seguir el desarrollo de tu proyecto y asegurarnos de que todo salga bien</p>
+                                <!-- <a href="#">Ver más...</a> -->
+                            </div>
+                        </div>
+                    </div>
+        
+                <!-- CARD 3 -->
+                    <div class="home-card">
+                        <div class="home-imgBx" data-text="Design">
+                            <img class="home-icon" src="./scss/recursos/logistics-color.png" alt="">
+                        </div>
+                        <div class="home-content">
+                            <div>
+                                <h3>Logistica</h3>
+                                <p>Pensamos en los medios para facilitar tu construcción</p>
+                                <!-- <a href="#">Ver más...</a> -->
+                            </div>
+                        </div>
+                    </div>
+        
+                <!-- CARD 4 -->
+                    <div class="home-card">
+                        <div class="home-imgBx" data-text="Design">
+                            <img class="home-icon" src="./scss/recursos/sales-color.png" alt="">
+                        </div>
+                        <div class="home-content">
+                            <div>
+                                <h3>Ventas Lider</h3>
+                                <p>Venta de materiales para tu construcción en seco</p>
+                                <!-- <a href="#">Ver más...</a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        
+
     </main>
-    <!-------------------------------------------------------------------------------------- 
+    <!--------------------------------------------------------------------------------------
                                     # Formulario
     --------------------------------------------------------------------------------------->
     <section class="section-form">
@@ -173,7 +257,7 @@
     </section>
     <!-- <a href="mailto:dreyjasrl@gmail.com" id="dreyja-email">dreyja</a> -->
 
-    <!-------------------------------------------------------------------------------------- 
+    <!--------------------------------------------------------------------------------------
                                     # Footer
     --------------------------------------------------------------------------------------->
     <footer id="footer">
@@ -225,7 +309,7 @@
                     <div class="col-lg-4 col-md-6 footer-newsletter">
                         <h4>Nuestro Newsletter</h4>
                         <p>Enterate sobre nuevos ingresos y actualizaciones (todas las semanas) sobre nuestros productos</p>
-                        
+
                         <form id="subscribeForm" action="" method="post">
                             <input type="email" name="email" id="emailInput">
                             <input type="submit" value="Subscribe">
@@ -244,7 +328,7 @@
     </footer>
     <!-- End Footer -->
 
-    <!-------------------------------------------------------------------------------------- 
+    <!--------------------------------------------------------------------------------------
     // Scripts
     --------------------------------------------------------------------------------------->
     <!-- JQuery CDN -->
